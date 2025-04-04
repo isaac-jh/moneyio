@@ -1,7 +1,7 @@
 import os
 from functools import cache
 
-from pydantic import AnyHttpUrl, BaseSettings
+from pydantic import BaseSettings
 
 
 class PostgresDBSettings(BaseSettings):
